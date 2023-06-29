@@ -82,4 +82,6 @@ remote connection - It helps you link two git repositories for uploading and dow
 
 NOTE : NAME OF THE REMOTE CONNECTION IS USED TO ESTABLISH THE CONNECTION B/W THE REPOS.
 
+`git pull <remote_name> <branch_name>` -> Downloads latest changes from the branch of the mentioned remote in 
+                                          your local repo. 
 
