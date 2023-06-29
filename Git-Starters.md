@@ -69,5 +69,14 @@ ans: If you want to move the whole file to the untracked state, then we will do 
 
 `git commit -m "commit_message"` -> Commit without VIM/Nano editor.
 
+`git remote` -> Lists down all the remote connections.
+
+remote connection - It helps you link two git repositories for uploading and downloading changes from each 
+                    other.
+
 `git remote add <name_of_connection(origin)> <link>` -> Links local repo to the github repo. You create a new 
-                                                        connection.
+                                                        connection. 
+
+`git remote rm <name_of_remote_connection> -> Deletes the remote connection.
+
+
