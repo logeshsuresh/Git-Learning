@@ -65,4 +65,5 @@ ans: If you want to move the whole file to the untracked state, then we will do 
      want the changes to be moved in working area or staging area then we will do git restore.  
 
 
-
+64e87a07e0d2796077db13bd2aab82bb7dac624e 
+2d863c5afe0f396a6704b773c78f6223e4d6bb66
