@@ -68,3 +68,6 @@ ans: If you want to move the whole file to the untracked state, then we will do 
 `git diff commit1 commit2` -> gives the difference between all commit changes. 
 
 `git commit -m "commit_message"` -> Commit without VIM/Nano editor.
+
+`git remote add <name_of_connection(origin)> <link>` -> Links local repo to the github repo. You create a new 
+                                                        connection.
