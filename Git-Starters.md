@@ -21,8 +21,7 @@ WORKING AREA -> Where you make changes in the file but are not added. These chan
 STAGING AREA -> What all files are going to be part of the next version. Place where GIT knows what changes
                 will be done from the last version to the next version.
 
-{ 
-    `git add Intro.md`
+`git add Intro.md`
     [logeshsuresh@192 GIT-Internals]$ git status
     On branch master
 
@@ -36,7 +35,7 @@ STAGING AREA -> What all files are going to be part of the next version. Place w
     (use "git add <file>..." to include in what will be committed)
         Git-Starters.md
 
-    git rm --CACHED Intro.md -> removes the file from the staging area. }
+`git rm --CACHED Intro.md` -> removes the file from the staging area. 
 
 REPOSITORY -> This area actually contains the details of the previous registered version. The files in this 
               area, GIT already manages them and knows their version. 
