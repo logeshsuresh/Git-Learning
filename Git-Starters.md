@@ -77,6 +77,10 @@ remote connection - It helps you link two git repositories for uploading and dow
 `git remote add <name_of_connection(origin)> <link>` -> Links local repo to the github repo. You create a new 
                                                         connection. 
 
-`git remote rm <name_of_remote_connection> -> Deletes the remote connection.
+`git remote rm <name_of_remote_connection>` -> Deletes the remote connection.
+
+`git remote rename <old_name> <new_name>` -> Renames the remote connection. 
+
+NOTE : NAME OF THE REMOTE CONNECTION IS USED TO ESTABLISH THE CONNECTION B/W THE REPOS.
 
 
