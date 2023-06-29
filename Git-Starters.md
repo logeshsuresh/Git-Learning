@@ -41,8 +41,8 @@ REPOSITORY -> This area actually contains the details of the previous registered
               area, GIT already manages them and knows their version. 
 
 
-git add <file> -> moves file from WORKING AREA to STAGING AREA.
-git rm --cached <file_name> -> moves the file from the STAGING AREA to WORKING AREA.
+`git add <file>` -> moves file from WORKING AREA to STAGING AREA.
+`git rm --cached <file_name>` -> moves the file from the STAGING AREA to WORKING AREA.
 
 To move the file from STAGING AREA to REPOSITORY -> you need to commit.
 
