@@ -23,4 +23,4 @@ control for you. Online tool which harness the power of GIT.
 git init -> Powers your folder to be managed by git & initializes a new empty repository. Also creates a .git 
             folder that has all the relevant logic to manage the versions of your project.
 
-            
+
