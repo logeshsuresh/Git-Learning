@@ -73,8 +73,7 @@ ans: If you want to move the whole file to the untracked state, then we will do 
 remote connection - It helps you link two git repositories for uploading and downloading changes from each 
                     other.
 
-`git remote add <name_of_connection(origin)> <link>` -> Links local repo to the github repo. You create a new 
-                                                        connection. 
+`git remote add <name_of_connection(origin)> <link>` -> Links local repo to the github repo. You create a new connection. 
 
 `git remote rm <name_of_remote_connection>` -> Deletes the remote connection.
 
@@ -82,6 +81,7 @@ remote connection - It helps you link two git repositories for uploading and dow
 
 NOTE : NAME OF THE REMOTE CONNECTION IS USED TO ESTABLISH THE CONNECTION B/W THE REPOS.
 
-`git pull <remote_name> <branch_name>` -> Downloads latest changes from the branch of the mentioned remote in 
-                                          your local repo. 
+`git pull <remote_name> <branch_name>` -> Downloads latest changes from the branch of the mentioned remote in your local repo. 
+
+
 
