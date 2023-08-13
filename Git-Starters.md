@@ -37,8 +37,7 @@ STAGING AREA -> What all files are going to be part of the next version. Place w
 
 `git rm --CACHED Intro.md` -> removes the file from the staging area. 
 
-REPOSITORY -> This area actually contains the details of the previous registered version. The files in this 
-              area, GIT already manages them and knows their version. 
+REPOSITORY -> This area actually contains the details of the previous registered version. The files in this area, GIT already manages them and knows their version. 
 
 
 `git add <file>` -> moves file from WORKING AREA to STAGING AREA.
@@ -46,18 +45,14 @@ REPOSITORY -> This area actually contains the details of the previous registered
 
 To move the file from STAGING AREA to REPOSITORY -> you need to commit.
 
-`commit` -> particular version of the project. Captures the snapshot of the project's staged changes and creates
-            a version out of it. 
+`commit` -> particular version of the project. Captures the snapshot of the project's staged changes and creates a version out of it. 
 
 
 `git log` -> Lists down all the commits of the repository. 
 
-`git restore` -> Suppose you made changed to a file already in the repository. Rn, the file is in the working 
-                 area, in order to undo the changes, you use this command. If the file is in STAGING AREA, this 
-                 command will not work. 
+`git restore` -> Suppose you made changed to a file already in the repository. Rn, the file is in the working area, in order to undo the changes, you use this command. If the file is in STAGING AREA, this command will not work. 
 
-`git restore --staged <file_name>` -> Bring the file back in the working area. This only works if changes are 
-                                      in your STAGIN AREA.
+`git restore --staged <file_name>` -> Bring the file back in the working area. This only works if changes are in your STAGING AREA.
 
 Difference between git rm and git restore :-
 ans: If you want to move the whole file to the untracked state, then we will do git rm, otherwise if we just 
@@ -70,8 +65,7 @@ ans: If you want to move the whole file to the untracked state, then we will do 
 
 `git remote` -> Lists down all the remote connections.
 
-remote connection - It helps you link two git repositories for uploading and downloading changes from each 
-                    other.
+remote connection - It helps you link two git repositories for uploading and downloading changes from each other.
 
 `git remote add <name_of_connection(origin)> <link>` -> Links local repo to the github repo. You create a new connection. 
 
